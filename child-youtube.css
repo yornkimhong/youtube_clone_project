@@ -1,0 +1,416 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+body{
+    background-color: #1e1e1e;
+}
+
+/* scroll bar */
+
+.container-header{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #323232;
+    padding: 0 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    
+}
+.container-header #icon-bar{
+    font-size: 25px;
+    color: white;
+} 
+.container-header .logo-youtube{
+    display: flex;
+    align-items: center;
+   
+}
+.image-youtube img{
+    height: 70px;
+    width: 110px;
+    margin-top: 5px;
+}
+.image-youtube{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.text-youtube a{
+    text-decoration: none;
+    position: absolute;
+    left: 131px;
+    top: 21px;
+}
+.text-youtube a h1{
+    font-size: 28px;
+    color: white;
+    
+}
+.text-youtube a h1 sup{
+    font-size: 13px;
+}
+
+
+    /* search-form */
+
+.search-form{
+    display: flex;
+}
+.form-search{
+    border: 1px solid gray;
+    margin-right: 10px;
+}
+.form-search input{
+    width: 500px;
+    height: 40px;
+    outline: none;
+    border: none;
+    padding-left: 15px ;
+    background-color: #1e1e1e;
+    color: white;
+}
+.form-search input::placeholder{
+    font-size: 15px;
+}
+.form-search button{
+    width: 60px;
+    height: 40px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(55, 55, 55);
+}
+#microphone-icons{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 35px;
+    border-radius: 50%;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+    /* Header-icons */
+
+.icons{
+    display: flex;
+    align-items: center;
+}
+#Notification-icons{
+    font-size:  25px;
+    color: white;
+    margin-right: 25px;
+    cursor: pointer;
+}
+#user-icons{
+    font-size: 25px;
+    color: white;
+    width: 40px;
+    height: 40px;
+    line-height: 35px;  
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: rgb(180, 180, 180);
+}
+.icons #upload-icon{
+    height: 30px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+
+        /* start-container */
+
+.main-container{
+    margin-top: 4.6%;
+    padding-top: 23px;
+    padding-left: 100px;
+    padding-right: 70px;
+    width: 100%;
+    height: 200vh; 
+    display: flex;
+    
+}
+/* video-container */
+
+#video-youbube{
+    width: 920px;
+    height: 520px;
+}
+
+ /* under video container */
+
+ /* paragraph-tag */
+
+.paragraph-tag{
+    width: 100%;
+    padding-top: 5px;
+    color: rgb(52, 52, 255);
+    font-size: 13px;
+    cursor: pointer;
+ }
+
+ /* title */
+
+ .title p{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    font-size: 23px;
+    cursor: pointer;
+ }
+ /* date */
+.date span{
+    color: gray;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* icon-video */
+
+.icon-video{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;  
+}
+.icon-video img {
+    height: 18px;
+    padding: 0 10px;
+}
+.icon-video span{
+    padding: 0 10px;
+}
+#left-img{
+    margin-left: 5px;
+    border-right: 1px solid gray;
+}
+#right-img{
+    margin-right: 5px;
+    border-left: 1px solid gray;
+}
+.icon-video p{
+    padding: 8px 12px;
+    color: white;
+    font-size: 15px;
+    border: 2px solid gray;
+    border-radius: 50px 50px ;
+    margin: 0 5px 0 5px;
+    cursor: pointer;
+    background-color: #323232;
+}
+.icon-video p:hover{
+    background-color: rgb(79, 79, 79);
+}
+
+/* channel-user */
+
+.channel-user{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+.channel-user .left-user{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.left-user{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid gray;
+}
+.left-user img{
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.left-user h1{
+    font-size: 15px;
+    color: white;
+}
+.left-user p{
+    padding-top: 5px;
+    font-size: 12px;
+    color: gray;
+}
+.left-user .sub button{
+    padding: 10px 15px;
+    font-size: 15px;
+    color: rgb(9, 9, 9);
+    background-color: white;
+    border-radius: 50px 50px;
+    margin-left: 190px;
+}
+.right-user{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid gray;
+    margin-left: 10px;
+}
+.text-com{
+    border-right: 1px solid gray;
+    padding: 0 10px;
+}
+.text-com h1{
+    font-size: 15px;
+    color: white;
+}
+.text-com p{
+    padding-top: 5px;
+    font-size: 12px;
+    color: gray;
+}
+.user-comm {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+
+}
+.right-user{
+    width: 48%;
+}
+.user-comm img {
+    height: 30px;
+    border-radius: 50%;
+}
+.user-comm  p{
+    font-size: 12px;
+    color: gray;
+    padding-left: 10px;
+}
+
+
+/* commends container */
+.self-comment{
+    width: 100%;
+    margin: 15px 0;
+
+}
+.self-comment span{
+    font-size: 15px;
+    color: white;
+    margin: 15px 25px;
+}
+.self-comment span img{
+    margin-right: 15px;
+    height: 15px;
+    color: #1e1e1e;
+}
+.user-commend {
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+}
+.user-commend img{
+    height: 40px;
+    border-radius: 50%;
+}
+.user-commend input{
+    margin-left: 25px;
+    width: 100%;
+    font-size: 15px;
+    color: gray;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 1px solid gray;
+}
+.another-comments{
+    display: flex; 
+}
+
+.img-comm img{
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-right: 25px;
+}
+.right-more h1{
+    font-size: 15px;
+    color: white;
+    line-height: 20px;
+}
+.right-more span{
+    font-size: 12px;
+    color:gray;
+    padding: 0 10px ;
+}
+.right-more p{
+    font-size: 14px;
+    color: white;
+    line-height: 30px;
+}
+.right-more p img{
+    height: 20px;
+}
+/* another-video container */
+.header-choose{
+    display: flex;
+    margin-bottom: 20px;
+    overflow-x: scroll;
+}
+::-webkit-scrollbar{
+    background-color: transparent;
+}
+.header-choose p{
+    padding: 8px 12px;
+    color: white;
+    font-size: 15px;
+    border: 2px solid rgb(203, 203, 203);
+    border-radius: 50px 50px ;
+    margin: 0 5px 0 5px;
+    cursor: pointer;
+    
+}
+.header-choose p:hover{
+    background-color: gray;
+}
+#active{
+    color: black;
+    background-color: rgb(255, 255, 255);
+   
+}
+
+.another-video{
+    margin-left: 25px ;
+    overflow: hidden;
+
+}
+.another-video .more-video{
+    display: flex;
+    gap: 7px;
+}
+.image-video a img{
+    height: 90px;
+    width: 160px;
+}
+.more-video{
+    margin-top: 10px;
+}
+.more-video .para-video a{
+    text-decoration: none;
+}
+.para-video a h1{
+    font-size: 17px;
+    color: white;
+}
+.para-video a p{
+    padding-top: 5px;
+    font-size: 15px;
+    color: white;
+}
